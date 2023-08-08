@@ -1,0 +1,27 @@
+.bbb{
+    color:rgb(241, 236, 246);
+}
+#d1{
+    color: white;
+    position: absolute;
+    /* top: 500px;
+    left: 500px; */
+
+}
+#h2text{
+    text-shadow:15px 15px 15px rgb(255, 2, 2);
+    animation: bulur 2s infinite linear  ;
+}
+
+@keyframes bulur {
+    0%{
+        filter: blur(0);
+    }
+    50%{
+        filter: blur(5px);
+        
+    }
+    100%{
+        filter: blur(0);
+    }
+}
